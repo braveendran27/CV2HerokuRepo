@@ -43,6 +43,7 @@ if __name__ == '__main__':
             classId,confifidence = Run_Inference(image_data,net)
             st.write('Recognized Digit: {}'.format(classId))
             st.write('Confidence: {:.2f}'.format(confifidence))
+            time.sleep(10)
 
 
 
