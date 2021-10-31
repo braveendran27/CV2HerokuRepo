@@ -3,6 +3,7 @@ import numpy as np
 import cv2
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
+import time
 
 # Implements softmax function
 def softmax(x):
